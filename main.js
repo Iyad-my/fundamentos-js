@@ -80,16 +80,66 @@
 
 // condicionales encadenados 
 
-let year = prompt("ingrese el año actual:")
+// let year = prompt("ingrese el año actual:")
 
-if ( year == 2024 ) {
-    alert("Muy Bien");
-    alert("eres great");
-} else if ( year >2024 ) {
-    alert("Muy alto");
-} else if ( year < 2024 ) {
-    alert("Muy bajo");
-} else {
-    alert("No es correcto");
-}
+// if ( year == 2024 ) {
+//     alert("Muy Bien");
+//     alert("eres great");
+// } else if ( year >2024 ) {
+//     alert("Muy alto");
+// } else if ( year < 2024 ) {
+//     alert("Muy bajo");
+// } else {
+//     alert("No es correcto");
+// }
+
+// operadores logicos 
+// or ||
+// alert( true || true ); // true
+// alert( true || false ); // true
+// alert( false || true ); // true
+// alert( false || false ); // false
+
+// let hour = 12;
+// let isWeekend = false;
+
+// if ( hour < 9 || hour > 18 || isWeekend){
+//     alert("la ofificna esta cerrada");
+// } else {
+//     alert("Open!");
+// }
+
+// and && 
+// alert( true && true ); // true
+// alert( true && false ); // false
+// alert( false && true ); // false
+// alert( false && false ); // false
+
+
+///hecha por mi
+let userName = prompt("Who's there?");
+    // alert( name );
+  
+
+    if ( userName === "Admin" ) {
+        let password = prompt("Enter your password");
+        // alert( password );
+
+        if ( password === "TheMaster" ) {
+            alert("Welcome!");
+        } else if ( password == null || password == "" ) {
+            alert("Canceled");
+        } else {
+            alert("Wrong password");
+        }
+    } else if ( name == null || name === "" ) {
+        alert("Canceled");
+    } else {
+        alert("I don't know you");
+    }
+
+// la del profe
+
+
+
 
