@@ -64,10 +64,10 @@
 // // condicionales
 // // let year = prompt("ingrese el año actual:")
 
-// // if ( year == 2024 ) {
+// // if ( year === 2024 ) {
 // //     alert("Muy Bien");
 // //     alert("eres great");
-
+// }
 // // else
 // let year = prompt("ingrese el año actual:")
 
@@ -82,7 +82,7 @@
 
 // let year = prompt("ingrese el año actual:")
 
-// if ( year == 2024 ) {
+// if ( year === 2024 ) {
 //     alert("Muy Bien");
 //     alert("eres great");
 // } else if ( year >2024 ) {
@@ -94,7 +94,7 @@
 // }
 
 // operadores logicos 
-// or ||
+// or -> ||
 // alert( true || true ); // true
 // alert( true || false ); // true
 // alert( false || true ); // true
@@ -109,7 +109,7 @@
 //     alert("Open!");
 // }
 
-// and && 
+// and -> && 
 // alert( true && true ); // true
 // alert( true && false ); // false
 // alert( false && true ); // false
@@ -117,29 +117,73 @@
 
 
 ///hecha por mi
-let userName = prompt("Who's there?");
-    // alert( name );
+// let userName = prompt("Who's there?");
+//     // alert( name );
   
 
-    if ( userName === "Admin" ) {
-        let password = prompt("Enter your password");
-        // alert( password );
+//     if ( userName === "Admin" ) {
+//         let password = prompt("Enter your password");
+//         // alert( password );
 
-        if ( password === "TheMaster" ) {
-            alert("Welcome!");
-        } else if ( password == null || password == "" ) {
-            alert("Canceled");
-        } else {
-            alert("Wrong password");
-        }
-    } else if ( name == null || name === "" ) {
-        alert("Canceled");
-    } else {
-        alert("I don't know you");
-    }
+//         if ( password === "TheMaster" ) {
+//             alert("Welcome!");
+//         } else if ( password == null || password == "" ) {
+//             alert("Canceled");
+//         } else {
+//             alert("Wrong password");
+//         }
+//     } else if ( userName == null || userNname === "" ) {
+//         alert("Canceled");
+//     } else {
+//         alert("I don't know you");
+//     }
 
-// la del profe
+// Ciclos While 
+// while (condition) {
+//       sentences;
+//       sentences;
+// }
 
+// let counter = 0;
+// while (counter < 3) {
+//   alert(counter)
+//   counter++;
+// }
 
+// ciclo for 
+// for (begin; CSSConditionRule, Step); {
+//     for body
+// }
+
+// for ( let counter = 0; counter < 3; counter++ ) {
+//     alert(counter);
+// }
+
+// funciones 
+// function showMessage() {
+//     alert("Hello");
+// }
+
+// showMessage();
+// showMessage();
+
+// funciones can variables locales
+// function showMessage() {
+//     let message = "epale"
+//     alert(message);
+// }
+
+// // showMessage();
+// alert(message);
+
+// Funciones con variables externas 
+let userName = "Josefino";
+
+function showMessage() {
+    let message = "epale" + userName;
+    alert(message);
+}
+
+showMessage();
 
 
